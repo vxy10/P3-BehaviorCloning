@@ -42,25 +42,7 @@ python drive.py model.json
 ```
 
 
-Video below presents performance of the algorithm on the first track. No simulator parameters were changed in this case. The neural network based controller was able to drive the car around the track on its own.
-
-
-```python
-from IPython.display import YouTubeVideo
-YouTubeVideo("k5GWzzE1qaU")
-```
-
-
-
-
-
-        <iframe
-            width="400"
-            height="300"
-            src="https://www.youtube.com/embed/k5GWzzE1qaU"
-            frameborder="0"
-            allowfullscreen
-        ></iframe>
+Video below presents performance of the algorithm on the first track. No simulator parameters were changed in this case. The neural network based controller was able to drive the car around the track on its own. Youtube video of car going around track 1 can be found [here](https://www.youtube.com/watch?v=bDinIBPxoQA). 
 
 
 
@@ -73,25 +55,7 @@ Model for track 1 can be ran using the command,
 python drive_track2.py model.json
 ```
 
-To run the car on the second track,
-
-
-```python
-YouTubeVideo("W5bwYNwpt1I")
-```
-
-
-
-
-
-        <iframe
-            width="400"
-            height="300"
-            src="https://www.youtube.com/embed/W5bwYNwpt1I"
-            frameborder="0"
-            allowfullscreen
-        ></iframe>
-
+The car's performance on the second track can be found [here](https://www.youtube.com/watch?v=r4dYAuOd-Bc). 
 
 
 
