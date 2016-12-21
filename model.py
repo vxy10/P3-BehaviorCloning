@@ -185,7 +185,6 @@ def get_model():
     model.add(Convolution2D(3,1,1,
                         border_mode='valid',
                         name='conv0', init='he_normal'))
-    model.add(ELU())
     model.add(Convolution2D(32,filter_size,filter_size,
                         border_mode='valid',
                         name='conv1', init='he_normal'))
